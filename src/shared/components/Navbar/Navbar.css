@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+li {
+    align-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

@@ -13,5 +13,13 @@ ul {
 li {
     align-content: center;
     color: white;
-    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.active {
+    border-bottom: 2px solid currentColor;
 }

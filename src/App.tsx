@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom"
 import Navbar from './shared/components/Navbar/Navbar'
-import Discography from "./Discography/Discography"
+import Discography from "./Pages/DiscographyPage"
 import './App.css'
-import Home from "./Home/Home"
-import Fashion from "./Fashion/Fashion"
-import PmoArchive from "./PmoArchive/PmoArchive"
-import News from "./News/News"
+import Home from "./Pages/HomePage"
+import Fashion from "./Pages/FashionPage"
+import PmoArchive from "./Pages/PmoArchivePage"
+import News from "./Pages/NewsPage"
 
 function App() {
 

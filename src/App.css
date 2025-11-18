@@ -16,4 +16,18 @@ body {
     text-align: center;
     background-color:bisque;
     margin-bottom: 2em;
+    color: black;
+}
+
+.album-info {
+  justify-self: center;
+}
+
+.album-details {
+  justify-items: center;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
 }

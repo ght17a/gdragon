@@ -21,13 +21,24 @@ body {
 
 .album-info {
   justify-self: center;
+  display: flex;
+  text-wrap-mode: nowrap;
 }
 
 .album-details {
-  justify-items: center;
+  margin-left: 5%;
 }
 
 .song-list {
   display: flex;
   flex-direction: column;
+}
+
+.audio-player {
+  justify-self: center;
+  width: 40%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

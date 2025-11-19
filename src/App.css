@@ -15,7 +15,7 @@ body {
 .album-card {
     text-align: center;
     background-color:bisque;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: black;
 }
 
@@ -27,11 +27,17 @@ body {
 
 .album-details {
   margin-left: 5%;
+  color: white;
 }
 
 .song-list {
   display: flex;
   flex-direction: column;
+}
+
+.song-item {
+  display: inline-block;
+  width: fit-content;
 }
 
 .audio-player {
@@ -41,4 +47,10 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.song-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
 }

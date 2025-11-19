@@ -145,7 +145,7 @@ export const SongsList = () => {
                     />
                 <div className="album-details">
                     <h1>{album.name}</h1>
-                    <p>Sortie : {album.releaseYear} | {songs.length} titre{songs.length > 1 ? "s" : ""}</p>
+                    <p>Release : {album.releaseYear} | {songs.length} track{songs.length > 1 ? "s" : ""}</p>
                 </div>
             </div>
         
@@ -156,9 +156,7 @@ export const SongsList = () => {
                             className="song-item"
                             onClick={() => onClickTrack(song)}
                         >
-                            <div>
-                                {song.trackNumber ?? "-"}. {song.title} {song.length ? <span>{formatDuration(song.length)}</span> : null}
-                            </div>
+                            {song.trackNumber ?? "-"}. {song.title} | {song.length ? <span>{formatDuration(song.length)}</span> : null}
                         </li>
                     )
                 })}
